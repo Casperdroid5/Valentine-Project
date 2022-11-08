@@ -157,7 +157,7 @@
       (net 6 "Net-(Q1-Pad1)") (pintype "passive") (tstamp 5ce3f7ec-68a9-48ca-8623-19e2c648f881))
     (pad "2" smd roundrect (at 1.55 0) (size 1.3 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1923076923)
       (net 11 "CTRLLED") (pintype "passive") (tstamp 85a2e968-d573-4c12-a606-99f4b0690721))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/R_1206_3216Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -199,7 +199,7 @@
       (net 1 "GND") (pintype "passive") (tstamp c1b2b29d-194e-46f4-b4f0-8d625ff5ca37))
     (pad "2" smd roundrect (at 1.55 0) (size 1.3 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1923076923)
       (net 6 "Net-(Q1-Pad1)") (pintype "passive") (tstamp 92816d1f-c535-43ab-8ea3-d33c38daf0a3))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/R_1206_3216Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -259,6 +259,11 @@
       (net 4 "JouleThiefPWR") (pinfunction "VDD") (pintype "passive") (tstamp 0441fc5e-2751-4180-9360-b8ecb73ee525))
     (pad "6" smd rect locked (at 0.75 -0.65 270) (size 0.35 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 8 "PB0{slash}SDA{slash}MOSI") (pinfunction "SDA") (pintype "passive") (tstamp ea68390a-dbf3-4e9b-bd86-9be6a99ee0b2))
+    (model "${KIPRJMOD}/packages3D/Light sensor BH1750FVI.STEP"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1.1 1 0.8))
+      (rotate (xyz -90 0 90))
+    )
   )
 
   (footprint "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" (layer "F.Cu")
@@ -298,7 +303,7 @@
       (net 3 "Net-(D1-Pad1)") (pinfunction "K") (pintype "passive") (tstamp 57e24957-285d-4528-bcea-974b3267414f))
     (pad "2" smd roundrect (at 1.4875 0 180) (size 1.425 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1754392982)
       (net 4 "JouleThiefPWR") (pinfunction "A") (pintype "passive") (tstamp dc4f05dc-8663-4820-afec-7ae90489463c))
-    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_1206_3216Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/LED_1206_3216Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -342,7 +347,7 @@
       (net 3 "Net-(D1-Pad1)") (pinfunction "K") (pintype "passive") (tstamp 4dfd91f9-a356-47ae-8db0-7ca07b5f8bee))
     (pad "2" smd roundrect (at 1.4875 0 90) (size 1.425 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1754392982)
       (net 4 "JouleThiefPWR") (pinfunction "A") (pintype "passive") (tstamp d43331a5-d93d-453f-88a1-88da445914d1))
-    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_1206_3216Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/LED_1206_3216Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -386,7 +391,7 @@
       (net 3 "Net-(D1-Pad1)") (pinfunction "K") (pintype "passive") (tstamp ac93ee18-acda-4285-9c05-f671c5383689))
     (pad "2" smd roundrect (at 1.4875 0 270) (size 1.425 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1754392982)
       (net 4 "JouleThiefPWR") (pinfunction "A") (pintype "passive") (tstamp ef63304d-4f79-41f7-864d-951ebaa598a4))
-    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_1206_3216Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/LED_1206_3216Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -455,7 +460,7 @@
       (net 4 "JouleThiefPWR") (pintype "passive") (tstamp 6157bbeb-c3f5-4291-965f-865bf87c3258))
     (pad "2" smd roundrect (at 1.5625 0) (size 1.325 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1886792453)
       (net 1 "GND") (pintype "passive") (tstamp 7be50aae-e512-4232-8304-caa46a8f37a5))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/C_1206_3216Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -499,7 +504,7 @@
       (net 3 "Net-(D1-Pad1)") (pinfunction "K") (pintype "passive") (tstamp 8156a32d-58fc-48aa-ae4e-df98dd324fa1))
     (pad "2" smd roundrect (at 1.4875 0) (size 1.425 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1754392982)
       (net 4 "JouleThiefPWR") (pinfunction "A") (pintype "passive") (tstamp d1a7fcd4-f2d5-4caf-ae13-95e32ce4e6d3))
-    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_1206_3216Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/LED_1206_3216Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -543,7 +548,7 @@
       (net 3 "Net-(D1-Pad1)") (pinfunction "K") (pintype "passive") (tstamp eda46eb8-f006-4754-98d7-ef8124711996))
     (pad "2" smd roundrect (at 1.4875 0 225) (size 1.425 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1754392982)
       (net 4 "JouleThiefPWR") (pinfunction "A") (pintype "passive") (tstamp 4724940c-c17a-4354-97f7-b0bf3fee674e))
-    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_1206_3216Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/LED_1206_3216Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -615,7 +620,7 @@
       (net 1 "GND") (pinfunction "S") (pintype "bidirectional") (tstamp a4457ebf-4c00-4c65-b70c-240bd3de5861))
     (pad "3" smd rect locked (at 0.85 0 90) (size 0.65 1.55) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 3 "Net-(D1-Pad1)") (pinfunction "D") (pintype "bidirectional") (tstamp a11d4f50-a315-466a-97be-355287f287b0))
-    (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.wrl"
+    (model "${KIPRJMOD}/packages3D/SOT-23.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -705,7 +710,7 @@
       (net 4 "JouleThiefPWR") (pinfunction "IO_VDD_2") (pintype "passive") (tstamp 7b1714f1-1032-4229-858f-d41ec8eaa9b0))
     (pad "12" smd rect locked (at -0.25 -0.8) (size 0.3 0.35) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 10 "PB2{slash}SCL{slash}SCK") (pinfunction "SCL") (pintype "passive") (tstamp 81b8e4eb-604f-49a2-8246-3d0b51f2eb0c))
-    (model "${KICAD6_3DMODEL_DIR}/Package_LGA.3dshapes/LGA-12_2x2mm_P0.5mm.wrl"
+    (model "${KIPRJMOD}/packages3D/LGA-12_2x2mm_P0.5mm.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -747,7 +752,7 @@
       (net 10 "PB2{slash}SCL{slash}SCK") (pintype "passive") (tstamp 99ef2c6f-2a30-42a8-be52-e78cdf16dea4))
     (pad "2" smd roundrect (at 1.55 0 180) (size 1.3 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1923076923)
       (net 4 "JouleThiefPWR") (pintype "passive") (tstamp 8729fa30-aa51-4764-88f6-ea588d6ee556))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/R_1206_3216Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -881,7 +886,7 @@
       (net 26 "unconnected-(U1-Pad20)") (pinfunction "NC") (pintype "no_connect") (tstamp bc9c984e-5577-4d68-bbc8-31c061f3dff2))
     (pad "21" smd rect locked (at 0 0 90) (size 2.75 2.75) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND") (pinfunction "GND") (pintype "passive") (tstamp a75ceb03-7aea-4222-9df5-bec6c1c86d2e))
-    (model "C:\\Users\\crtak\\Documents\\KiCad\\SamacSys_Parts.3dshapes\\ATTINY85-20MU.stp"
+    (model "${KIPRJMOD}/packages3D/ATTINY85-20MU.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -923,7 +928,7 @@
       (net 4 "JouleThiefPWR") (pintype "passive") (tstamp 91e25be8-713a-4541-8d58-08b67944f8bc))
     (pad "2" smd roundrect (at 1.5625 0) (size 1.325 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1886792453)
       (net 1 "GND") (pintype "passive") (tstamp c5cc1400-dd17-49c8-bd6b-42becb92ee8d))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/C_1206_3216Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -965,7 +970,7 @@
       (net 4 "JouleThiefPWR") (pintype "passive") (tstamp 66c12360-14ca-43eb-89f8-ed9d9aa64a8e))
     (pad "2" smd roundrect (at 1.5625 0) (size 1.325 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1886792453)
       (net 1 "GND") (pintype "passive") (tstamp 1a5f8296-4368-46cf-b49d-7427e3ac4257))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/C_1206_3216Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1009,7 +1014,7 @@
       (net 3 "Net-(D1-Pad1)") (pinfunction "K") (pintype "passive") (tstamp b3203f42-d6ef-448e-b36a-a46f08c4d643))
     (pad "2" smd roundrect (at 1.4875 0 180) (size 1.425 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1754392982)
       (net 4 "JouleThiefPWR") (pinfunction "A") (pintype "passive") (tstamp 7b41b1e4-00cc-4325-8b8c-144db962fef6))
-    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_1206_3216Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/LED_1206_3216Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1078,7 +1083,7 @@
       (net 4 "JouleThiefPWR") (pintype "passive") (tstamp 09896429-09be-4b5d-8b4c-08c4ee1ac384))
     (pad "2" smd roundrect (at 1.5625 0) (size 1.325 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1886792453)
       (net 1 "GND") (pintype "passive") (tstamp 23ce747b-1fd5-44c3-88f1-17116bc05a2f))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/C_1206_3216Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1152,7 +1157,7 @@
       (net 1 "GND") (pinfunction "E") (pintype "passive") (tstamp af51c46b-7c64-4e05-8c01-d73741d3bde3))
     (pad "3" smd roundrect (at 0.9375 0) (size 1.475 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 4 "JouleThiefPWR") (pinfunction "C") (pintype "passive") (tstamp c97d7dd6-f285-4d23-9492-5e8617b66f17))
-    (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.wrl"
+    (model "${KIPRJMOD}/packages3D/SOT-23.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1221,7 +1226,7 @@
       (net 14 "Net-(AC1-Pad10)") (pintype "passive") (tstamp 66afcbd7-e6de-401a-9d3d-2def4e480c80))
     (pad "2" smd roundrect (at 1.5625 0) (size 1.325 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1886792453)
       (net 1 "GND") (pintype "passive") (tstamp 06c8502d-e6a3-4f1b-ba41-91043106d3a2))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/C_1206_3216Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1265,7 +1270,7 @@
       (net 3 "Net-(D1-Pad1)") (pinfunction "K") (pintype "passive") (tstamp 74b20445-5ecc-4edd-9435-34a2076f1749))
     (pad "2" smd roundrect (at 1.4875 0 315) (size 1.425 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1754392982)
       (net 4 "JouleThiefPWR") (pinfunction "A") (pintype "passive") (tstamp 1f6c9022-2588-443e-8a54-7d1d10f62ee4))
-    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_1206_3216Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/LED_1206_3216Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1309,7 +1314,7 @@
       (net 3 "Net-(D1-Pad1)") (pinfunction "K") (pintype "passive") (tstamp 80d3da23-e339-4c09-bd1f-8ef1b311ab48))
     (pad "2" smd roundrect (at 1.4875 0 180) (size 1.425 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1754392982)
       (net 4 "JouleThiefPWR") (pinfunction "A") (pintype "passive") (tstamp ba586a44-3ef8-4160-af8f-f4940bc272eb))
-    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_1206_3216Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/LED_1206_3216Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1353,7 +1358,7 @@
       (net 3 "Net-(D1-Pad1)") (pinfunction "K") (pintype "passive") (tstamp 4d35cfed-5d04-4902-b6ad-cfeea8edf752))
     (pad "2" smd roundrect (at 1.4875 0 315) (size 1.425 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1754392982)
       (net 4 "JouleThiefPWR") (pinfunction "A") (pintype "passive") (tstamp 432e3564-b27b-4405-8e8f-33354747b036))
-    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_1206_3216Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/LED_1206_3216Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1395,7 +1400,7 @@
       (net 5 "Net-(L1-Pad4)") (pintype "passive") (tstamp 6fbe90d1-3f34-4526-89bc-06e07b1cf9d3))
     (pad "2" smd roundrect (at 1.55 0) (size 1.3 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1923076923)
       (net 7 "Net-(Q2-Pad1)") (pintype "passive") (tstamp 7e6618b3-3680-4a44-a107-5ff190c71c74))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/R_1206_3216Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1439,7 +1444,7 @@
       (net 3 "Net-(D1-Pad1)") (pinfunction "K") (pintype "passive") (tstamp f92d990e-a02f-49f6-b2e5-2a466e09e0b4))
     (pad "2" smd roundrect (at 1.4875 0 45) (size 1.425 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1754392982)
       (net 4 "JouleThiefPWR") (pinfunction "A") (pintype "passive") (tstamp 3685996c-b679-481b-a563-c73eeee2fe9f))
-    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_1206_3216Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/LED_1206_3216Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1483,7 +1488,7 @@
       (net 3 "Net-(D1-Pad1)") (pinfunction "K") (pintype "passive") (tstamp c57e1c25-75bc-4b94-85bf-1ada57730c77))
     (pad "2" smd roundrect (at 1.4875 0 45) (size 1.425 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1754392982)
       (net 4 "JouleThiefPWR") (pinfunction "A") (pintype "passive") (tstamp 12a60f8c-de8a-4a42-a4f5-6f04ad0c2a20))
-    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_1206_3216Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/LED_1206_3216Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1527,7 +1532,7 @@
       (net 3 "Net-(D1-Pad1)") (pinfunction "K") (pintype "passive") (tstamp 29a2ebe8-33c6-4940-8f92-098d8fa4131c))
     (pad "2" smd roundrect (at 1.4875 0 135) (size 1.425 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1754392982)
       (net 4 "JouleThiefPWR") (pinfunction "A") (pintype "passive") (tstamp 65203aa9-5b2f-40dd-9e7c-524f8a0dc096))
-    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_1206_3216Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/LED_1206_3216Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1569,7 +1574,7 @@
       (net 4 "JouleThiefPWR") (pintype "passive") (tstamp 9a36954a-9cbd-4156-bb00-cd2f3e46f552))
     (pad "2" smd roundrect (at 1.5625 0) (size 1.325 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1886792453)
       (net 1 "GND") (pintype "passive") (tstamp a0619139-501f-4a78-90b8-e5367bad27f0))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/C_1206_3216Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1627,7 +1632,7 @@
       (net 2 "+3V0") (pinfunction "3") (pintype "passive") (tstamp 5e5b6a8e-7562-43a6-8836-ae836ed4428e))
     (pad "4" smd rect locked (at -2.05 -1.125) (size 1.1 1.35) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 5 "Net-(L1-Pad4)") (pinfunction "4") (pintype "passive") (tstamp 64b3cc3c-e146-4b7e-af3b-18dcce4bf226))
-    (model "C:\\Users\\crtak\\Documents\\KiCad\\SamacSys_Parts.3dshapes\\SRF4532-510Y.stp"
+    (model "${KIPRJMOD}/packages3D/SRF4532-510Y.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1669,7 +1674,7 @@
       (net 4 "JouleThiefPWR") (pintype "passive") (tstamp 3ebcb66c-28eb-4855-864e-02373974d758))
     (pad "2" smd roundrect (at 1.55 0) (size 1.3 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1923076923)
       (net 8 "PB0{slash}SDA{slash}MOSI") (pintype "passive") (tstamp 7b5969d7-2253-42e4-837d-51ddd1a72782))
-    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl"
+    (model "${KIPRJMOD}/packages3D/R_1206_3216Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1731,7 +1736,7 @@
       (net 2 "+3V0") (pinfunction "+") (pintype "passive") (tstamp eaaf399c-0ae7-4dcd-a6a9-d91742a7f6b3))
     (pad "2" smd rect (at 14.7 0 180) (size 2.6 3.5) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 1 "GND") (pinfunction "-") (pintype "passive") (tstamp 935ced38-e88c-4fef-a253-82cc1b6f70ab))
-    (model "C:\\Users\\crtak\\Documents\\KiCad\\SamacSys_Parts.3dshapes\\SMTU2032-LF.stp"
+    (model "${KIPRJMOD}/packages3D/SMTU2032-LF.stp"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))

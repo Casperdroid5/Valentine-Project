@@ -1,0 +1,13 @@
+Designator,Footprint,Quantity,Value,LCSC Part #
+BT1,BatteryHolder_Keystone_3002_1x2032,1,2032,
+C3,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,1,47uF,
+C4,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,1,100nF,
+"D1, D10, D11, D12, D2, D3, D4, D5, D6, D7, D8, D9",LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder,12,LED,
+F1,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,1,Fuse,
+Q1,SOT96P240X120-3N,1,MOSFET-NCH-2N7002PW,
+"R1, R2, R3, R5, R9",R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,5,10k,
+R4,R_LDR_5.1x4.3mm_P3.4mm_Vertical,1,LDR07,
+R8,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,1,1k,
+S1,SW_SPST_TL3305B,1,MOMENTARY-SWITCH-SPST-2-SMD-5.2MM,
+U1,DIP781W56P254L950H533Q8N,1,ATtiny85-20P,
+U2,SOIC-8W_5.3x5.3mm_P1.27mm,1,ATtiny85-20S,
